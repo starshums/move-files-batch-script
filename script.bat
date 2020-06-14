@@ -8,7 +8,7 @@ IF EXIST _MAIN_FILES_FOLDER (
   
   IF EXIST _LIST_OF_FILES_TO_MOVE (
     FOR %%i IN (_MAIN_FILES_FOLDER/*) DO (
-      FOR /F "tokens=*" %%A in (_LIST_OF_FILES_TO_MOVE.txt) DO (
+      FOR /F "tokens=*" %%A in (_LIST_OF_FILES_TO_BE_MOVED.txt) DO (
         IF %%i == %%A (
           ECHO OK: A match was found ...
           ECHO OK: Moving file ...
