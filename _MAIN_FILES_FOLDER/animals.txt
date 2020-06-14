@@ -1,0 +1,6 @@
+owls
+dogs
+cats
+lions
+tigers
+snakes
