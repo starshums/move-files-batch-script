@@ -4,7 +4,7 @@ A batch script to move or copy specific files in a text file from a folder to an
 # Usage
 1) Download script.
 2) Prepare ``` _MAIN_FILES_FOLDER ``` with all the files that you have.
-3) Open ```_LIST_OF_FILES_TO_BE_MOVED.txt``` and set the files that you need move
+3) Open ```_LIST_OF_FILES_TO_BE_MOVED.txt``` and set the files that you need to move
 3) Execute ``` script.bat ``` by double clicking it, or using the cmd by typing : ``` > script.bat ```
 4) Check ``` _MOVED_FILES_FOLDER ``` for moved files. 
 
